@@ -10,9 +10,9 @@ function oddishOrEvenish(sNumber){
     		total += Number(sNumber[i]);
     	 }
   if(total % 2 == 0) 
-     console.log("The number is even.");
+     console.log("Even.");
  
  if(total % 2 == 1) 
-     console.log("The number is odd.");
+     console.log("Odd.");
 }
     
