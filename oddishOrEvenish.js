@@ -7,9 +7,8 @@ oddishOrEvenish(sNumber);
 
 function oddishOrEvenish(sNumber){
 	for (var i = 0, len = sNumber.length; i < len; i += 1) {
-    total += Number(sNumber[i]);
-    
-	}
+    		total += Number(sNumber[i]);
+    	 }
   if(total % 2 == 0) 
      console.log("The number is even.");
  
